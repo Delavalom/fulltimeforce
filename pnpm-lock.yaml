@@ -32,9 +32,6 @@ importers:
       '@radix-ui/react-tooltip':
         specifier: ^1.0.6
         version: 1.0.6(@types/react-dom@18.2.7)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
-      '@tanstack/react-table':
-        specifier: ^8.9.9
-        version: 8.9.9(react-dom@18.2.0)(react@18.2.0)
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.0
@@ -2051,23 +2048,6 @@ packages:
   /@swc/types@0.1.4:
     resolution: {integrity: sha512-z/G02d+59gyyUb7KYhKi9jOhicek6QD2oMaotUyG+lUkybpXoV49dY9bj7Ah5Q+y7knK2jU67UTX9FyfGzaxQg==}
     dev: true
-
-  /@tanstack/react-table@8.9.9(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-BzffnRo4+4wNa7OFnOxw6Dgq3jFvkfvZBqg1janXfZobo0VRmMMI8KNVu/WRkescr1VWbrGUDKzEzEe3L1veKw==}
-    engines: {node: '>=12'}
-    peerDependencies:
-      react: '>=16'
-      react-dom: '>=16'
-    dependencies:
-      '@tanstack/table-core': 8.9.9
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-    dev: false
-
-  /@tanstack/table-core@8.9.9:
-    resolution: {integrity: sha512-cv9J3qmIn5t9dljp19S3GDsqMyAVV5+XsvK2tbOezUV3WZW4xQzkpS20uMihHMlD8uup1v0i/OePGadz2TC2Eg==}
-    engines: {node: '>=12'}
-    dev: false
 
   /@tsconfig/node10@1.0.9:
     resolution: {integrity: sha512-jNsYVVxU8v5g43Erja32laIDHXeoNvFEpX33OK4d6hljo3jDhCBDhx5dhCCTMWUojscpAagGiRkBKxpdl9fxqA==}
