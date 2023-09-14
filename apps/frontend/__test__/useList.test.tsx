@@ -32,6 +32,7 @@ vi.mock("../src/hooks/useList.ts", () => ({
         html_url:
           "https://github.com/Delavalom/fulltimeforce/commit/08097479fb2fba12ecc16efbc0e2216d8fbc60d6",
         avatar_url: "https://avatars.githubusercontent.com/u/95777619?v=4",
+        username: "Delavalom"
       },
     ],
     isSuccess: true,
