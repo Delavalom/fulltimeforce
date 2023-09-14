@@ -27,6 +27,7 @@ describe('AppService', () => {
       verified: expect.anything(),
       html_url: expect.anything(),
       avatar_url: expect.anything(),
+      username: expect.anything(),
     };
 
     expect(sampleEntity).toEqual(expect.objectContaining(expectedStructure));

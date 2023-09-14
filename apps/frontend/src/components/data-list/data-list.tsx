@@ -8,6 +8,7 @@ export type Commit = {
   verified: boolean;
   html_url: string;
   avatar_url: string;
+  username: string
 };
 
 export function DataList({data}: {data: Commit[]}) {

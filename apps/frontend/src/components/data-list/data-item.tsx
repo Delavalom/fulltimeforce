@@ -25,13 +25,13 @@ export const DataItem: FC<DataItemProps> = ({ commit }) => {
         <p className="font-normal">{commit.message}</p>
         <div className="flex space-x-2 items-center">
           <Avatar className="w-6 h-6">
-            <a href={`https://github.com/Delavalom`}>
+            <a href={`https://github.com/${commit.username}`}>
               <AvatarImage
                 src={commit.avatar_url}
                 alt={`${commit.author}'s avatar`}
               />
             </a>
-            <AvatarFallback>D</AvatarFallback>
+            <AvatarFallback>{commit.username?.charAt(0)}</AvatarFallback>
           </Avatar>
           <p className="text-xs font-bold leading-none">{commit.author}</p>
           <p className="text-xs text-muted-foreground">

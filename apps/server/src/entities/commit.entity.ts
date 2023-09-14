@@ -6,4 +6,5 @@ export class Commit {
   verified!: boolean;
   html_url!: string;
   avatar_url!: string;
+  username!: string;
 }
