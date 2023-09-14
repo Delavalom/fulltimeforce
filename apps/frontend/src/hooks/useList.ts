@@ -1,5 +1,5 @@
 import { Commit } from "@frontend/components/data-list/data-list"
-import { useQuery } from "react-query"
+import { useQuery } from "@tanstack/react-query"
 
 export function useList(page = 1, limit = 30) {
     const query = useQuery<Commit[]>(['commit'], async () => {
