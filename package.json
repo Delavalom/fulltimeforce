@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "pnpm run --parallel dev",
     "build:server": "pnpm --filter server build",
-    "build:web": "pnpm --filter web build",
+    "build:web": "pnpm --filter frontend build",
     "start:server": "pnpm --filter server start:prod",
-    "start:web": "pnpm --filter web start"
+    "start:web": "pnpm --filter frontend start"
   },
   "keywords": [],
   "author": "",
